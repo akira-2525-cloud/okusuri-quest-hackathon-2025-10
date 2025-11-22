@@ -33,7 +33,7 @@
 
 ## 🏗️ Architecture 
 「10日間で、思想を壊さずに触れる体験を作る」ことを目標に、**Next.js** と **Supabase** を選定しました。
-![unnamed](https://github.com/user-attachments/assets/e905584d-c5a4-4979-abba-99620388c087)
+![unnamed](https://github.com/user-attachments/assets/0fc2533e-8453-4d57-a94d-aaba6e2b58e7)
 
 ### ⚡️ Key Technology: Realtime Feedback
 図中の **"Instant UI Update"** が本アプリの核です。
