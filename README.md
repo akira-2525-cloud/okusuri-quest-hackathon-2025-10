@@ -19,7 +19,8 @@
 ## 🧩 The 3 Gaps 
 服薬が続かない原因を、3つのギャップとして定義し、デザインと技術で解消を目指しました。
 
-![3 Gaps Infographic](./images/concept_3gaps.jpg)
+![unnamed (1)](https://github.com/user-attachments/assets/511dda4f-0620-4d44-b8c7-6b1910668db0)
+
 1.  **Perception Gap (知覚)** 📉
     * **課題**: 薬を飲んでもすぐに体調は変わらず、効いている実感がない。
     * **解決**: **「連続日数」の即時可視化**。飲んだ瞬間に数値が積み上がる達成感を提供。
