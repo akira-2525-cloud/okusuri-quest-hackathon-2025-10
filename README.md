@@ -33,7 +33,7 @@
 ![unnamed](https://github.com/user-attachments/assets/0fc2533e-8453-4d57-a94d-aaba6e2b58e7)
 
 ### ⚡️ こだわりのポイント（リアルタイム通信）
-図中の **"Instant UI Update"** が本アプリの核です。
+
 Supabase Realtimeを活用し、「ボタンを押した瞬間に数字が動く」体験を実現。
 サーバーとの通信ラグを感じさせないことで、ユーザーの「できた！」という達成感を逃しません。
 
