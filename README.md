@@ -3,8 +3,8 @@
 
 > **Theme: 服薬を、義務から物語へ。**
 
+<img width="1471" height="631" alt="image" src="https://github.com/user-attachments/assets/0d334778-54c2-435c-8b4d-10cbc8829135" />
 
-![Okusuri Quest Top Image](./images/top_banner.jpg)
 
 
 ## 📖プロジェクト概要
