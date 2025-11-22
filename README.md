@@ -109,12 +109,9 @@ npm run dev
 ### 👤 Author
 
 **Akira Ito** (淑徳大学 総合福祉学部)
-*福祉の視点を持つエンジニア*
 
-```
 
--
-<img width="2251" height="971" alt="image" src="https://github.com/user-attachments/assets/cfcee5f2-93de-4bcc-a164-6ed691830a66" />
+
 
 
 
