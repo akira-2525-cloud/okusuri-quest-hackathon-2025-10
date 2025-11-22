@@ -7,7 +7,7 @@
 ![Okusuri Quest Top Image](./images/top_banner.jpg)
 
 
-## 📖 Overview 
+## 📖プロジェクト概要
 **「おくすりクエスト」は、毎日の服薬をRPGのような「冒険」に変えるアプリケーションです。**
 
 福祉の現場において、服薬継続の最大の障壁は「うっかり忘れ」ではなく、効果が実感できないことによる**「続ける意味の喪失」**です。
@@ -16,7 +16,7 @@
 「監視」や「義務」ではなく、**「仕組みでやる気を支える」**こと。
 それがこのプロダクトのテーマです。
 
-## 🧩 The 3 Gaps 
+## 🧩 解決へのアプローチ：3つのやさしいデザイン
 服薬が続かない原因を、3つのギャップとして定義し、デザインと技術で解消を目指しました。
 
 ![unnamed (1)](https://github.com/user-attachments/assets/511dda4f-0620-4d44-b8c7-6b1910668db0)
@@ -32,11 +32,11 @@
     * **解決**: **「クエスト化」**。積み重ねを物語として捉え直すUXデザイン。
     * 
 
-## 🏗️ Architecture 
+## 🏗️技術構成：思想を壊さない設計
 「10日間で、思想を壊さずに触れる体験を作る」ことを目標に、**Next.js** と **Supabase** を選定しました。
 ![unnamed](https://github.com/user-attachments/assets/0fc2533e-8453-4d57-a94d-aaba6e2b58e7)
 
-### ⚡️ Key Technology: Realtime Feedback
+### ⚡️ こだわりのポイント（リアルタイム通信）
 図中の **"Instant UI Update"** が本アプリの核です。
 Supabase Realtimeを活用し、**「ボタンを押した瞬間に数字が動く」**体験を実現。
 サーバーとの通信ラグを感じさせないことで、ユーザーの「できた！」という達成感を逃しません。
@@ -47,7 +47,7 @@ Supabase Realtimeを活用し、**「ボタンを押した瞬間に数字が動�
 | **Backend** | Supabase (PostgreSQL, Auth, Realtime) |
 | **Infrastructure** | Vercel |
 
-## 🗂 Database Schema (データ設計)
+## 🗂安全への配慮と安心設計
 「冒険の記録」と「安心の見守り」を支えるデータ構造です。
 
 ```mermaid
