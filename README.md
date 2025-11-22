@@ -3,7 +3,8 @@
 
 > **Theme: 服薬を、義務から物語へ。**
 
-<img width="1471" height="631" alt="image" src="https://github.com/user-attachments/assets/0d334778-54c2-435c-8b4d-10cbc8829135" />
+<img width="1096" height="555" alt="image" src="https://github.com/user-attachments/assets/02e0f4c7-f9d8-45e1-84a1-10c1930099da" />
+
 
 
 
