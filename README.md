@@ -2,7 +2,7 @@
 # 💊 Okusuri Quest (おくすりクエスト)
 
 > **Theme: 服薬を、義務から物語へ。**
-> *From Duty to Story.*
+
 
 ![Okusuri Quest Top Image](./images/top_banner.jpg)
 
@@ -31,7 +31,7 @@
     * **解決**: **「クエスト化」**。積み重ねを物語として捉え直すUXデザイン。
     * 
 
-## 🏗️ Architecture (技術構成)
+## 🏗️ Architecture 
 「10日間で、思想を壊さずに触れる体験を作る」ことを目標に、**Next.js** と **Supabase** を選定しました。
 
 ![System Architecture](./images/architecture.jpg)
@@ -75,7 +75,7 @@ erDiagram
     }
 ````
 
-## 🛡️ Security & Privacy (安心設計)
+## 🛡️ Security & Privacy
 
 福祉アプリとして、技術的な安全性と心理的な安全性の両方を担保しています。
 
@@ -84,7 +84,7 @@ erDiagram
 
 
 
-## 💭 Message (開発者より)
+## 💭 Message
 
 **「クラウドは冷たいものではない。人の温かさを形にできる技術です。」**
 
