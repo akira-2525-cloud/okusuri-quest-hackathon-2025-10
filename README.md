@@ -86,3 +86,204 @@ erDiagram
 
 
 
+
+任せろ、君の“おくすりクエスト”を**GitHubで最強に見せる README 完全版**を仕上げるね。
+そのまま `README.md` にコピペして使える構成にしてある。
+ハッカソン提出・ポートフォリオ・面接どれでも通用するレベルに整えてあるよ。
+
+---
+
+# 🏆 **README.md（完全版／コピペOK）**
+
+```markdown
+# 💊 おくすりクエスト – 服薬 × RPGの継続支援アプリ
+
+**『おくすりクエスト』は、服薬という“義務的な行動”を、RPGのクエストのような“冒険体験”に再解釈する継続支援アプリです。**  
+服薬1回＝クエスト達成、継続日数＝ストリーク、そして他ユーザーとのランキングによる“仲間と戦う感覚”を取り入れ、  
+日々の服薬をもっと前向きで楽しい行動へ変換することを目指しました。
+
+本作は **Next.js × Supabase × Vercel** を軸とした、  
+「最小で最大の体験」を目指したクラウドネイティブ構成で開発しています。
+
+---
+
+## 🚀 Overview
+
+『おくすりクエスト』は、服薬ログをリアルタイムに記録し、  
+ストリーク・レベルアップ・ランキングといった“ゲーム的要素”によって  
+継続行動を自然に続けられるようデザインされた、**RPG型服薬支援アプリ**です。
+
+- **リアルタイム服薬ログ（Supabase Realtime）**  
+- **ストリーク自動更新（SQL関数）**  
+- **ランキング機能（RPC × Realtime）**  
+- **シンプルで直感的なUI（Next.js App Router）**
+
+**現在は無料枠の制約により一時停止中ですが、  
+ハッカソンで検証した設計・UI・アーキテクチャを学習資産として公開しています。**
+
+---
+
+## 🎯 Background – なぜ作ったのか
+
+日本では「飲み忘れ」による治療中断・体調悪化が日常的に起きています。  
+しかし多くの服薬アプリは、“義務の管理”で終わってしまい、  
+**「継続しやすい体験」** という本質的課題が置き去りになっています。
+
+そこで着想したのが、  
+**「服薬＝クエスト」というゲーム的リフレーミング。**  
+
+- 継続に達成感をつける  
+- 楽しさで行動を後押しする  
+- 他者とのゆるいつながりがモチベになる  
+
+福祉 × テクノロジーの交差点で、新しい継続支援の形を探る試みです。
+
+---
+
+## 🧩 Features – 主な特徴
+
+- 🎮 **服薬を“クエスト”として扱う**  
+- ⚡ **Realtimeでログ更新（Supabase）**  
+- 🌱 **連続日数によるストリーク管理**  
+- 🏆 **週次ランキング（RPC + Realtime）**  
+- 🔐 **認証（Supabase Auth）**  
+- 📱 **レスポンシブ対応UI**
+
+---
+
+## 🏛️ System Architecture – 技術構成
+
+```
+
+Next.js (App Router)
+└─ UI / 状態管理
+
+Supabase
+├─ Auth（メール認証）
+├─ Database（PostgreSQL）
+├─ Realtime（服薬ログ同期）
+└─ RPC（ランキング集計）
+
+Vercel Hosting
+
+```
+
+図（任意）  
+`/docs/system-architecture.png`
+
+---
+
+## 📷 Screenshots
+
+※画像を貼れば強い  
+```
+
+/docs/screenshot-01.png
+/docs/screenshot-02.png
+
+````
+
+---
+
+## 🧪 Getting Started – 開発環境での起動
+
+```bash
+# 1. Clone
+git clone https://github.com/あなたのリポジトリ
+cd okusuri-quest
+
+# 2. Install
+pnpm install
+
+# 3. Environment Variables
+cp .env.example .env.local
+# → Supabase関連のKEYを設定
+
+# 4. Run
+pnpm dev
+````
+
+---
+
+## 📚 Tech Stack
+
+* **Next.js 14**
+* **Supabase**
+
+  * Auth
+  * PostgreSQL
+  * Realtime
+  * RPC（Ranking更新）
+* TypeScript
+* Vercel
+
+---
+
+## 📊 Database Schema（簡易）
+
+```
+users
+meds
+plans
+doses
+streaks
+weekly_stats
+rank_signals
+```
+
+---
+
+## 🗺️ Future Roadmap
+
+* ストリークの改善（中断時のリカバリ設計）
+* 医療機関・支援機関との「継続データ連携」
+* 行動支援・メンタルヘルス領域への応用
+* オフライン対応
+* 報酬/称号システム
+
+---
+
+## 🛑 Development Status（開発状況）
+
+現在、
+**Supabase Realtime / Storage の無料枠を超えたため、一時停止中です。**
+
+ただし：
+
+* 設計方針
+* アーキテクチャ
+* UI原案
+* ハッカソンで得た検証結果
+
+はすべて学習目的のため公開しています。
+
+これは
+**「コストも含めて技術を扱える」という判断力として、むしろ強みになります。**
+
+---
+
+## 🙋‍♂️ Author
+
+**伊藤 晶 / Akira**
+GitHub: [https://github.com/akira-2525-cloud](https://github.com/akira-2525-cloud)
+(個人情報は載せずOK)
+
+---
+
+## 📄 License
+
+MIT License
+
+```
+
+---
+
+# ✨ 完全にハッカソン提出レベル。  
+README をこれにするだけで、作品の見栄えが一段レベルアップする。
+
+もっと「企業向けポートフォリオ風」に寄せたいなら、そのバージョンも作るよ。  
+スクショに合わせて文を調整することもできるし、GitHub の `docs` フォルダも自動生成する形で渡せる。
+```
+
+
+
