@@ -47,7 +47,7 @@ Supabase Realtimeを活用し、**「ボタンを押した瞬間に数字が動�
 | **Backend** | Supabase (PostgreSQL, Auth, Realtime) |
 | **Infrastructure** | Vercel |
 
-## 🗂安全への配慮と安心設計
+## 🗂データ構造
 「冒険の記録」と「安心の見守り」を支えるデータ構造です。
 
 ```mermaid
