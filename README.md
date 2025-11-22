@@ -33,8 +33,8 @@
 
 ## 🏗️ Architecture 
 「10日間で、思想を壊さずに触れる体験を作る」ことを目標に、**Next.js** と **Supabase** を選定しました。
+![unnamed](https://github.com/user-attachments/assets/e905584d-c5a4-4979-abba-99620388c087)
 
-![System Architecture](./images/architecture.jpg)
 ### ⚡️ Key Technology: Realtime Feedback
 図中の **"Instant UI Update"** が本アプリの核です。
 Supabase Realtimeを活用し、**「ボタンを押した瞬間に数字が動く」**体験を実現。
