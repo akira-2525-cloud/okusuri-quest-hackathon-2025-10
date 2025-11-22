@@ -2,9 +2,7 @@
 # 💊 Okusuri Quest (おくすりクエスト)
 
 > **Theme: 服薬を、義務から物語へ。**
-
-<img width="1096" height="555" alt="image" src="https://github.com/user-attachments/assets/02e0f4c7-f9d8-45e1-84a1-10c1930099da" />
-
+<img width="1089" height="336" alt="image" src="https://github.com/user-attachments/assets/9ca9d490-d998-4e9a-b01f-231a7d80ddf8" />
 ## 📖プロジェクト概要
 **「おくすりクエスト」は、毎日の服薬をRPGのような「冒険」に変えるアプリケーションです。**
 
