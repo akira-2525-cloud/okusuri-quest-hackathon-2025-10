@@ -5,9 +5,6 @@
 
 <img width="1096" height="555" alt="image" src="https://github.com/user-attachments/assets/02e0f4c7-f9d8-45e1-84a1-10c1930099da" />
 
-
-
-
 ## 📖プロジェクト概要
 **「おくすりクエスト」は、毎日の服薬をRPGのような「冒険」に変えるアプリケーションです。**
 
